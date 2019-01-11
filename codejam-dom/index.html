@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codejam-dom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <div id="container" class="container">
+    <div id="notification" class="notification tip">
+      <div class="close-container" onclick=closeWin()>
+        <span class="notification-close">&times;</span>
+      </div>
+      <h3 class="notification-title">
+        <i class="fa fa-warning"></i> Email tip of the day</h3>
+      <p class="notification-message">Quis autem vel eum iure reprehenderit, qui blanditiis praesentium voluptatum
+        deleniti atque corrupti, quos dolores
+        et quas molestias excepturi sint, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="notification-footer">
+        <div class="disable">
+          <input id="disabled-checkbox" type="checkbox"> Disable tips
+        </div>
+        <div  class="notification-buttons">
+          <div class="previous-btn" title="Previous">
+            <img src="img/btn.png" alt="back">
+          </div>
+          <div class="slide-buttons">
+            <a class="slide-btn">•</a>
+            <a class="slide-btn">•</a>
+            <a class="slide-btn active">•</a>
+            <a class="slide-btn">•</a>
+            <a class="slide-btn">•</a>
+            <a class="slide-btn">•</a>
+          </div>
+          <div class="next-btn" title="Next">
+            <img src="img/btn.png" alt="next">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

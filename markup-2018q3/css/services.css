@@ -1,0 +1,55 @@
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    margin: 10vh 10vw;
+}
+
+.services {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services i {
+    position: absolute;
+    top: 15px;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.services h4 {
+    margin: 25px 0 0;
+    color: rgba(48, 48, 48, 255);
+}
+
+.services p {
+    color: rgba(126, 126, 126, 255);
+}
+
+.color {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.yellow {
+    background: #f1c40f;
+}
+
+.blue {
+    background:  #0faff1;
+}
+
+.gray {
+    background:  #95a5a6;
+}
+
+.orange {
+    background:  #f1540f;
+}

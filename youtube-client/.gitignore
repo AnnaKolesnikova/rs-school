@@ -1,0 +1,9 @@
+.idea
+node_modules
+*.bundle.js
+*.log
+.vscode
+package.json
+.sass-cache/*
+css/.sass-cache
+css/style.css.map

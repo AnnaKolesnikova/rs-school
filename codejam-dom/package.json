@@ -1,0 +1,25 @@
+{
+  "name": "codejam-dom",
+  "version": "1.0.0",
+  "description": "notification",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/annakolesnikova-2018Q3.git"
+  },
+  "keywords": [
+    "codejam"
+  ],
+  "author": "Anna Kolesnikova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/annakolesnikova-2018Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/annakolesnikova-2018Q3#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

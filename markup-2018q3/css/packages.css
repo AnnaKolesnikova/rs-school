@@ -1,0 +1,127 @@
+.half-background-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10vw;
+    background: url("../img/packages.jpg") no-repeat;
+    background-size: 100%;
+    min-height: 400px; 
+}
+
+.hosting-package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    min-width: 255px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.hosting-package > .package-title {
+    text-align: center;
+}
+
+.package-title {
+    text-transform: uppercase;
+    color:  rgba(40, 40, 40, 0.91);
+    font-size: 16px;
+    font-weight: 700;
+    width: 70%;
+    padding: 5px 0 15px;
+}
+
+.half-background-img img {
+    margin: 40px auto 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.basic-package {
+    border-top: 5px solid #f9d423;
+}
+.normal-package {
+    border-top: 5px solid #7f8c8d;;
+}
+.big-package {
+    border-top: 5px solid #f85f40;
+}
+.biggest-package {
+    border-top: 5px solid #1abc9c;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    min-width: 200px;
+}
+
+.row:first-child {
+    border-top: 1px solid #dfdfdf;
+}
+
+.row:last-child {
+    margin-bottom: 3vh;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.info-item {
+    float: left;
+    color: rgba(180, 180, 180, 255);
+    margin-left: 0;
+    text-align: left;
+}
+
+.info-value {
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.basic-package .package-info .info-value {
+    color: #f9d423;
+}
+.normal-package .package-info .info-value {
+    color: #7f8c8d;
+}
+.big-package .package-info .info-value {
+    color: #f85f40;
+}
+.biggest-package .package-info .info-value {
+    color: #1abc9c;
+}
+
+.amount {
+    display: table;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.cell:first-child {
+    vertical-align: top;
+}
+
+.currency-sign {
+    line-height: 1.9em;
+}
+
+.sum {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.per-month {
+    color: rgba(180, 180, 180, 255);
+}
+
+.hosting-package a {
+    margin: 2vh 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(40, 40, 40, 255);
+}
